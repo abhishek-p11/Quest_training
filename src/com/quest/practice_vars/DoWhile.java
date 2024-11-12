@@ -4,6 +4,7 @@ public class DoWhile {
     public static void main(String[] args) {
         int i=0;
         int j=7;
+        int[][] salary = new int[3][3];
         do{
             System.out.println("print statment");
             i++;
@@ -12,6 +13,8 @@ public class DoWhile {
             System.out.println(j);
             j--;
         }while(j>0);
+
+
     }
 
 }
