@@ -11,5 +11,7 @@ public class DataTypes {
         boolean f=true; //(1 byte)
         String g="hello world";
         short h=123; //-32768 to 32767 -(2 byte)
+
+
     }
 }
