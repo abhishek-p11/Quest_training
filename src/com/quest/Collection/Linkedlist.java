@@ -29,7 +29,7 @@ public class Linkedlist {
 
         LinkedList<Person> l3 = new LinkedList<>();
         System.out.println(l3.isEmpty());
-        Person person=new Person():
-        l3.remove(person);
+//Person person=new Person();
+       // l3.remove(person);
     }
 }
