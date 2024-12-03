@@ -25,7 +25,7 @@ public class Main {
             System.out.println("13. Exit");
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Consume newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1 -> {
@@ -45,7 +45,7 @@ public class Main {
                     if (playlist != null) {
                         System.out.print("Enter track ID: ");
                         int id = scanner.nextInt();
-                        scanner.nextLine(); // Consume newline
+                        scanner.nextLine();
                         System.out.print("Enter track title: ");
                         String title = scanner.nextLine();
                         System.out.print("Enter artist: ");

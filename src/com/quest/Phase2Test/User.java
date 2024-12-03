@@ -83,7 +83,7 @@ public class User {
             try {
                 newPlaylist.addTrack(track);
             } catch (DuplicateTrackException e) {
-                // This won't occur since we're using a Set to handle uniqueness
+
             }
         }
 
